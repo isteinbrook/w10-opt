@@ -1,7 +1,7 @@
 # Windows 10 Optimizations
-(#anchors-in-markdown)
+
 ## TOC
-1. Optimizations
+1. [Optimizations](https://github.com/isteinbrook/w10-opt/blob/master/README.md#1-optimizations)
 
 	A. Mouse accel tweaks
 	
@@ -116,4 +116,3 @@ Script removes
 
 Script 
 https://pastebin.com/31yrSCCe
-[create an anchor](#anchors-in-markdown)
