@@ -67,14 +67,14 @@ Examples of editing them (double click on the name or right click on the name an
 7. Restart your computer (this is VERY important - these won't activate until you do so as most registry updates don't actually activate until windows reloads. If you've ever wondered why you are asked to restart after installing a program - this is why)
 
 
-## C. Network Throttling Index
+### C. Network Throttling Index
 Windows implements a network throttling mechanism, the idea behind such throttling is that processing of network packets can be a resource-intensive task. It is beneficial to turn off such throttling for achieving maximum throughput.
 
 1. To implement this tweak, run regedit and modify the registry HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile. 
 
 2. Under SystemProfile, create a DWORD value and name it to “NetworkThrottlingIndex” then set its Hexadecimal value to ffffffff for gaming and max throughput, this completely disables throttling.
 
-## D. System Gaming Responsiveness
+### D. System Gaming Responsiveness
 Multimedia streaming and some games that uses “Multimedia Class Scheduler” service (MMCSS) can only utilize up to 80% of the CPU. The “Multimedia Class Scheduler” service (MMCSS) ensures prioritized access to CPU resources, without denying CPU resources to lower-priority background applications.
 
 1. Run regedit and modify the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile. 
