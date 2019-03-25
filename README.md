@@ -7,6 +7,7 @@
 	C. [Network throttling index](https://github.com/isteinbrook/w10-opt#c-network-throttling-index)<br/>
 	D. [System Gaming Responsiveness](https://github.com/isteinbrook/w10-opt#d-system-gaming-responsiveness)<br/>
 	E. [Disable bandwidth sharing](https://github.com/isteinbrook/w10-opt#e-disable-bandwidth-sharing-for-updates)<br/>
+	F. [Disable focus assist]
 2. [Bloatware Removal](https://github.com/isteinbrook/w10-opt#2-bloatware-removal)<br/>
 	a. [Cortana Removal](https://github.com/isteinbrook/w10-opt#a-remove-cortana)<br/>
 	b. [Bloatware removal](https://github.com/isteinbrook/w10-opt#b-bloatware-removal)<br/>
@@ -63,7 +64,6 @@ Examples of editing them (double click on the name or right click on the name an
 
 7. Restart your computer (this is VERY important - these won't activate until you do so as most registry updates don't actually activate until windows reloads. If you've ever wondered why you are asked to restart after installing a program - this is why)
 
-
 ### C. Network Throttling Index
 Windows implements a network throttling mechanism, the idea behind such throttling is that processing of network packets can be a resource-intensive task. It is beneficial to turn off such throttling for achieving maximum throughput.
 
@@ -95,6 +95,21 @@ In another strange act of opt-out data sharing between users, Windows now uses a
 3. Next, scroll down to the bottom of this page, then select the option labeled "Choose how updates are delivered."
 
 4. Finally, turn off the toggle switch directly beneath the excerpt about "Updates from more than one place." They really buried this one deep, didn't they?
+
+### F. Disable focus assist
+1. Open Settings.
+
+2. Click on System.
+
+3. Click on Focus assist.
+
+4. Under "Focus assist," select one of the three options:
+
+Off — Disables the feature, and you'll see the notifications from apps and contacts.
+
+Priority only — The feature will only allow notifications depending on the settings you've configured on your priority list.
+
+Alarms only — Suppresses all notifications while focus assist is enabled, except for alarms.
 
 ## 2. Bloatware removal
 
@@ -160,3 +175,4 @@ https://www.laptopmag.com/articles/turn-cortana-windows-10 <br />
 https://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/ <br />
 https://www.reddit.com/r/Windows10/comments/3f45ix/easy_way_to_uninstall_onedrive_if_you_arent_using/ <br />
 http://donewmouseaccel.blogspot.com/2010/03/markc-windows-7-mouse-acceleration-fix.html<br />
+https://www.windowscentral.com/how-use-focus-assist-reduce-distractions-windows-10-april-2018-update <br />
