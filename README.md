@@ -9,8 +9,8 @@
 	E. [Disable bandwidth sharing](https://github.com/isteinbrook/w10-opt#e-disable-bandwidth-sharing-for-updates)<br/>
 	F. [Disable focus assist](https://github.com/isteinbrook/w10-opt#f-disable-focus-assist)
 2. [Bloatware Removal](https://github.com/isteinbrook/w10-opt#2-bloatware-removal)<br/>
-	a. [Cortana Removal](https://github.com/isteinbrook/w10-opt#a-remove-cortana)<br/>
-	b. [Bloatware removal](https://github.com/isteinbrook/w10-opt#b-bloatware-removal)<br/>
+	G. [Cortana Removal](https://github.com/isteinbrook/w10-opt#a-remove-cortana)<br/>
+	H. [Bloatware removal](https://github.com/isteinbrook/w10-opt#b-bloatware-removal)<br/>
 3. [Sources](https://github.com/isteinbrook/w10-opt/blob/master/README.md#sources)
 
 ## 1. Optimizations
@@ -113,7 +113,7 @@ Alarms only — Suppresses all notifications while focus assist is enabled, exce
 
 ## 2. Bloatware removal
 
-### a. Remove cortana
+### G. Remove cortana
 1. Open regedit the registry editor, from the search box on the taskbar.
 2. Go to HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search
 But wait! Windows Search might not be there. It wasn't for us, so we had to create it.
@@ -123,7 +123,7 @@ But wait! Windows Search might not be there. It wasn't for us, so we had to crea
 5. Restart the computer (or log out and log back in). Cortana will be replaced with a regular search bar.
 
 
-### b. Bloatware removal
+### H. Bloatware removal
 Create a new file called (e.g.) delete_bloatware.bat and copy the code from https://pastebin.com/31yrSCCe into it, then right click and execute as administrator
 
 #### What it does
