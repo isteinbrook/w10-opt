@@ -1,20 +1,15 @@
 # Windows 10 Optimizations
 
 ## TOC
-1. [Optimizations](https://github.com/isteinbrook/w10-opt/blob/master/README.md#1-optimizations)
-	A. [Mouse accel tweaks](https://github.com/isteinbrook/w10-opt/blob/master/README.md#a-mouse-accel-tweaks)
-	B. [Undoing Nagle's Algorithm / Improving Latency](https://github.com/isteinbrook/w10-opt#b-undoing-nagles-algorithm--improving-latency)
-	C. [Network throttling index](https://github.com/isteinbrook/w10-opt#c-network-throttling-index)
-	
-	D. [System Gaming Responsiveness](https://github.com/isteinbrook/w10-opt#d-system-gaming-responsiveness)
-	
-	E. [Disable bandwidth sharing](https://github.com/isteinbrook/w10-opt#e-disable-bandwidth-sharing-for-updates)
-	
-2. [Bloatware Removal](https://github.com/isteinbrook/w10-opt#2-bloatware-removal)
-
-	a. [Cortana Removal](https://github.com/isteinbrook/w10-opt#a-remove-cortana)
-	
-	b. [Bloatware removal](https://github.com/isteinbrook/w10-opt#b-bloatware-removal)
+1. [Optimizations](https://github.com/isteinbrook/w10-opt/blob/master/README.md#1-optimizations)<br/>
+	A. [Mouse accel tweaks](https://github.com/isteinbrook/w10-opt/blob/master/README.md#a-mouse-accel-tweaks)<br/>
+	B. [Undoing Nagle's Algorithm / Improving Latency](https://github.com/isteinbrook/w10-opt#b-undoing-nagles-algorithm--improving-latency)<br/>
+	C. [Network throttling index](https://github.com/isteinbrook/w10-opt#c-network-throttling-index)<br/>
+	D. [System Gaming Responsiveness](https://github.com/isteinbrook/w10-opt#d-system-gaming-responsiveness)<br/>
+	E. [Disable bandwidth sharing](https://github.com/isteinbrook/w10-opt#e-disable-bandwidth-sharing-for-updates)<br/>
+2. [Bloatware Removal](https://github.com/isteinbrook/w10-opt#2-bloatware-removal)<br/>
+	a. [Cortana Removal](https://github.com/isteinbrook/w10-opt#a-remove-cortana)<br/>
+	b. [Bloatware removal](https://github.com/isteinbrook/w10-opt#b-bloatware-removal)<br/>
 
 
 ## 1. Optimizations
