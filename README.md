@@ -7,7 +7,7 @@
 	C. [Network throttling index](https://github.com/isteinbrook/w10-opt#c-network-throttling-index)<br/>
 	D. [System Gaming Responsiveness](https://github.com/isteinbrook/w10-opt#d-system-gaming-responsiveness)<br/>
 	E. [Disable bandwidth sharing](https://github.com/isteinbrook/w10-opt#e-disable-bandwidth-sharing-for-updates)<br/>
-	F. [Disable focus assist]
+	F. [Disable focus assist](https://github.com/isteinbrook/w10-opt#f-disable-focus-assist)
 2. [Bloatware Removal](https://github.com/isteinbrook/w10-opt#2-bloatware-removal)<br/>
 	a. [Cortana Removal](https://github.com/isteinbrook/w10-opt#a-remove-cortana)<br/>
 	b. [Bloatware removal](https://github.com/isteinbrook/w10-opt#b-bloatware-removal)<br/>
