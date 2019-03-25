@@ -3,21 +3,21 @@
 ## TOC
 1. [Optimizations](https://github.com/isteinbrook/w10-opt/blob/master/README.md#1-optimizations)
 
-	A. Mouse accel tweaks
+	A. [Mouse accel tweaks](https://github.com/isteinbrook/w10-opt/blob/master/README.md#a-mouse-accel-tweaks)
 	
-	B. Undoing Nagle's Algorithm / Improving Latency
+	B. [Undoing Nagle's Algorithm / Improving Latency](https://github.com/isteinbrook/w10-opt#b-undoing-nagles-algorithm--improving-latency)
 	
-	C. Network throttling index
+	C. [Network throttling index](https://github.com/isteinbrook/w10-opt#c-network-throttling-index)
 	
-	D. System Gaming Responsiveness
+	D. [System Gaming Responsiveness](https://github.com/isteinbrook/w10-opt#d-system-gaming-responsiveness)
 	
-	E. Disable bandwidth sharing
+	E. [Disable bandwidth sharing](https://github.com/isteinbrook/w10-opt#e-disable-bandwidth-sharing-for-updates)
 	
-2. Bloatware Removal
+2. [Bloatware Removal](https://github.com/isteinbrook/w10-opt#2-bloatware-removal)
 
-	a. Cortana Removal
+	a. [Cortana Removal](https://github.com/isteinbrook/w10-opt#a-remove-cortana)
 	
-	b. Bloatware removal
+	b. [Bloatware removal](https://github.com/isteinbrook/w10-opt#b-bloatware-removal)
 
 
 ## 1. Optimizations
@@ -114,5 +114,5 @@ But wait! Windows Search might not be there. It wasn't for us, so we had to crea
 ### b. Bloatware removal
 Script removes
 
-Script 
-https://pastebin.com/31yrSCCe
+Create a new file called (e.g.) delete_bloatware.bat and copy the code from https://pastebin.com/31yrSCCe into it, then right click and execute as administrator
+
