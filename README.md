@@ -159,3 +159,4 @@ https://windows.gadgethacks.com/how-to/everything-you-need-disable-windows-10-01
 https://www.laptopmag.com/articles/turn-cortana-windows-10 <br />
 https://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/ <br />
 https://www.reddit.com/r/Windows10/comments/3f45ix/easy_way_to_uninstall_onedrive_if_you_arent_using/ <br />
+http://donewmouseaccel.blogspot.com/2010/03/markc-windows-7-mouse-acceleration-fix.html<br />
