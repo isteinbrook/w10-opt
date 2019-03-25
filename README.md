@@ -1,5 +1,5 @@
 # Windows 10 Optimizations
-
+(#anchors-in-markdown)
 ## TOC
 1. Optimizations
 
@@ -116,3 +116,4 @@ Script removes
 
 Script 
 https://pastebin.com/31yrSCCe
+[create an anchor](#anchors-in-markdown)
