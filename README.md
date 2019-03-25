@@ -104,7 +104,46 @@ But wait! Windows Search might not be there. It wasn't for us, so we had to crea
 
 
 ### b. Bloatware removal
-Script removes
-
 Create a new file called (e.g.) delete_bloatware.bat and copy the code from https://pastebin.com/31yrSCCe into it, then right click and execute as administrator
+
+#### What it does
+##### Removes
+Onedrive
+3DBuilder
+Getstarted
+WindowsAlarms
+WindowsCamera
+bing
+MicrosoftOfficeHub
+OneNote
+people
+WindowsPhone
+photos
+SkypeApp
+solit
+WindowsSoundRecorder
+windowscommunicationsapps
+zune
+WindowsCalculator
+WindowsMaps
+Sway
+CommsPhone
+ConnectivityStore
+Microsoft.Messaging
+Facebook
+Twitter
+Drawboard PDF
+
+#### Tweaks 
+Remove Telemetry & Data Collection
+WiFi Sense: HotSpot Sharing: Disable
+WiFi Sense: Shared HotSpot Auto-Connect: Disable
+Change Windows Updates to "Notify to schedule restart
+Disable P2P Update downlods outside of local network
+Hide the search box from taskbar. You can still search by pressing the Win key and start typing what you're looking for
+Disable MRU lists (jump lists) of XAML apps in Start Menu
+Set Windows Explorer to start on This PC instead of Quick Access
+Show hidden files in Explorer
+Show super hidden system files in Explorer
+Show file extensions in Explorer
 
