@@ -2,11 +2,8 @@
 
 ## TOC
 1. [Optimizations](https://github.com/isteinbrook/w10-opt/blob/master/README.md#1-optimizations)
-
 	A. [Mouse accel tweaks](https://github.com/isteinbrook/w10-opt/blob/master/README.md#a-mouse-accel-tweaks)
-	
 	B. [Undoing Nagle's Algorithm / Improving Latency](https://github.com/isteinbrook/w10-opt#b-undoing-nagles-algorithm--improving-latency)
-	
 	C. [Network throttling index](https://github.com/isteinbrook/w10-opt#c-network-throttling-index)
 	
 	D. [System Gaming Responsiveness](https://github.com/isteinbrook/w10-opt#d-system-gaming-responsiveness)
