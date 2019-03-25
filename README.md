@@ -108,42 +108,42 @@ Create a new file called (e.g.) delete_bloatware.bat and copy the code from http
 
 #### What it does
 ##### Removes
-Onedrive
-3DBuilder
-Getstarted
-WindowsAlarms
-WindowsCamera
-bing
-MicrosoftOfficeHub
-OneNote
-people
-WindowsPhone
-photos
-SkypeApp
-solit
-WindowsSoundRecorder
-windowscommunicationsapps
-zune
-WindowsCalculator
-WindowsMaps
-Sway
-CommsPhone
-ConnectivityStore
-Microsoft.Messaging
-Facebook
-Twitter
-Drawboard PDF
+Onedrive <br />
+OneNote <br />
+bing <br />
+Facebook <br />
+Twitter <br />
+SkypeApp <br />
+3DBuilder <br />
+Getstarted <br />
+WindowsAlarms <br />
+WindowsCamera <br />
+MicrosoftOfficeHub <br />
+people <br />
+WindowsPhone <br />
+photos <br />
+solit <br />
+WindowsSoundRecorder <br /> 
+windowscommunicationsapps <br />
+zune <br />
+WindowsCalculator <br />
+WindowsMaps <br />
+Sway <br />
+CommsPhone <br />
+ConnectivityStore <br />
+Microsoft.Messaging <br />
+Drawboard PDF <br />
 
 #### Tweaks 
-Remove Telemetry & Data Collection
-WiFi Sense: HotSpot Sharing: Disable
-WiFi Sense: Shared HotSpot Auto-Connect: Disable
-Change Windows Updates to "Notify to schedule restart
-Disable P2P Update downlods outside of local network
-Hide the search box from taskbar. You can still search by pressing the Win key and start typing what you're looking for
-Disable MRU lists (jump lists) of XAML apps in Start Menu
-Set Windows Explorer to start on This PC instead of Quick Access
-Show hidden files in Explorer
-Show super hidden system files in Explorer
-Show file extensions in Explorer
+Remove Telemetry & Data Collection <br />
+WiFi Sense: HotSpot Sharing: Disable <br />
+WiFi Sense: Shared HotSpot Auto-Connect: Disable <br />
+Change Windows Updates to "Notify to schedule restart <br />
+Disable P2P Update downlods outside of local network <br />
+Hide the search box from taskbar. You can still search by pressing the Win key and start typing what you're looking for <br />
+Disable MRU lists (jump lists) of XAML apps in Start Menu <br />
+Set Windows Explorer to start on This PC instead of Quick Access <br />
+Show hidden files in Explorer <br />
+Show super hidden system files in Explorer <br />
+Show file extensions in Explorer <br />
 
