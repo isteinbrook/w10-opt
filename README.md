@@ -15,11 +15,16 @@
 ## 1. Optimizations
 ### A. Mouse accel tweaks
 Disable the “help” (hint: it doesn’t help) Windows tries to give you. This disables mouse acceleration and stops Windows from modifying your mouse input.
-2. Press the windows key
-3. Type in “mouse”
-4. Click “Mouse settings”
-5. Click “Additional mouse options”
-6. Select the “Pointer Options” tab and make sure that “Enhance pointer precision” is turned off, and your pointer speed is set exactly in the middle (the 6th notch from the left or right). 
+
+1. Press the windows key
+
+2. Type in “mouse”
+
+3. Click “Mouse settings”
+
+4. Click “Additional mouse options”
+
+5. Select the “Pointer Options” tab and make sure that “Enhance pointer precision” is turned off, and your pointer speed is set exactly in the middle (the 6th notch from the left or right). 
 
 https://i.imgur.com/qOUpWLC.png
 
