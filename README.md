@@ -152,3 +152,9 @@ Show hidden files in Explorer <br />
 Show super hidden system files in Explorer <br />
 Show file extensions in Explorer <br />
 
+## Sources
+https://www.gamingfactors.com/optimize-windows-10-for-gaming/
+https://www.reddit.com/r/pcmasterrace/comments/736tfh/skype_is_officially_bloatware_uninstalled_it/dno65sy/
+https://windows.gadgethacks.com/how-to/everything-you-need-disable-windows-10-0163552/
+https://www.laptopmag.com/articles/turn-cortana-windows-10
+https://www.back2gaming.com/guides/how-to-tweak-windows-10-for-gaming/
