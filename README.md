@@ -10,7 +10,7 @@
 2. [Bloatware Removal](https://github.com/isteinbrook/w10-opt#2-bloatware-removal)<br/>
 	a. [Cortana Removal](https://github.com/isteinbrook/w10-opt#a-remove-cortana)<br/>
 	b. [Bloatware removal](https://github.com/isteinbrook/w10-opt#b-bloatware-removal)<br/>
-
+3. [Sources](https://github.com/isteinbrook/w10-opt/blob/master/README.md#sources)
 
 ## 1. Optimizations
 ### A. Mouse accel tweaks
