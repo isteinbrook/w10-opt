@@ -2,14 +2,22 @@
 
 ## TOC
 1. Optimizations
+
 	A. Mouse accel tweaks
-B. Undoing Nagle's Algorithm / Improving Latency
-C. Network throttling index
-D. System Gaming Responsiveness
-E. Disable bandwidth sharing
+	
+	B. Undoing Nagle's Algorithm / Improving Latency
+	
+	C. Network throttling index
+	
+	D. System Gaming Responsiveness
+	
+	E. Disable bandwidth sharing
+	
 2. Bloatware Removal
-a. Cortana Removal
-b. Bloatware removal
+
+	a. Cortana Removal
+	
+	b. Bloatware removal
 
 
 ## 1. Optimizations
@@ -61,23 +69,35 @@ Examples of editing them (double click on the name or right click on the name an
 
 ## C. Network Throttling Index
 Windows implements a network throttling mechanism, the idea behind such throttling is that processing of network packets can be a resource-intensive task. It is beneficial to turn off such throttling for achieving maximum throughput.
+
 1. To implement this tweak, run regedit and modify the registry HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile. 
+
 2. Under SystemProfile, create a DWORD value and name it to “NetworkThrottlingIndex” then set its Hexadecimal value to ffffffff for gaming and max throughput, this completely disables throttling.
+
 ## D. System Gaming Responsiveness
 Multimedia streaming and some games that uses “Multimedia Class Scheduler” service (MMCSS) can only utilize up to 80% of the CPU. The “Multimedia Class Scheduler” service (MMCSS) ensures prioritized access to CPU resources, without denying CPU resources to lower-priority background applications.
-Run regedit and modify the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile. From there, create a new DWORD and name it to “SystemResponsiveness” set its hexadecimal value to 00000000 for pure gaming/streaming.
-In the same Registry hive as the above tweak, you can also change the priority of Games. To implement this tweak, go to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games and change the following registry values:
+
+1. Run regedit and modify the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile. 
+
+2. create a new DWORD and name it to “SystemResponsiveness” set its hexadecimal value to 00000000 for pure gaming/streaming.
+
+In the same Registry hive as the above tweak, you can also change the priority of Games. To implement this tweak, 
+1. go to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games and change the following registry values:
+
 “GPU Priority” change its values to 8 for gaming.
+
 “Priority” set to 6 for gaming.
 
 ### E. Disable Bandwidth Sharing for Updates
 In another strange act of opt-out data sharing between users, Windows now uses a sort-of peer-to-peer network for downloading updates. Similar to a torrent program, this means that when you download a Windows update file, you're also uploading parts of it to other users.
-Start by heading to the Settings menu, but this time open the "Update & Security" section.
-From the "Windows Update" tab on the next screen, click the "Advanced options" button to find the setting we're looking for.
-Next, scroll down to the bottom of this page, then select the option labeled "Choose how updates are delivered."
-Finally, turn off the toggle switch directly beneath the excerpt about "Updates from more than one place." They really buried this one deep, didn't they?
 
+1. Start by heading to the Settings menu, but this time open the "Update & Security" section.
 
+2. From the "Windows Update" tab on the next screen, click the "Advanced options" button to find the setting we're looking for.
+
+3. Next, scroll down to the bottom of this page, then select the option labeled "Choose how updates are delivered."
+
+4. Finally, turn off the toggle switch directly beneath the excerpt about "Updates from more than one place." They really buried this one deep, didn't they?
 
 ## 2. Bloatware removal
 
