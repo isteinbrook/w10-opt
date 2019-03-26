@@ -62,18 +62,22 @@ Windows implements a network throttling mechanism, the idea behind such throttli
 
 #### Instructions
 
-1. To implement this tweak, run regedit and modify the registry HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile. 
+1. Run regedit
 
-2. Under SystemProfile, create a DWORD value and name it to “NetworkThrottlingIndex” then set its Hexadecimal value to ffffffff for gaming and max throughput, this completely disables throttling.
+2. Go to the path "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile"
+
+3. Under SystemProfile, create a DWORD value and name it to “NetworkThrottlingIndex” then set its Hexadecimal value to ffffffff for gaming and max throughput, this completely disables throttling.
 
 ### D. System Gaming Responsiveness
 Multimedia streaming and some games that uses “Multimedia Class Scheduler” service (MMCSS) can only utilize up to 80% of the CPU. The “Multimedia Class Scheduler” service (MMCSS) ensures prioritized access to CPU resources, without denying CPU resources to lower-priority background applications.
 
 #### Instructions
 
-1. Run regedit and modify the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile. 
+1. Run regedit
 
-2. create a new DWORD and name it to “SystemResponsiveness” set its hexadecimal value to 00000000 for pure gaming/streaming.
+2. Go to the path "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile"
+
+3. create a new DWORD and name it to “SystemResponsiveness” set its hexadecimal value to 00000000 for pure gaming/streaming.
 
 In the same Registry hive as the above tweak, you can also change the priority of Games. To implement this tweak, 
 1. go to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games and change the following registry values:
