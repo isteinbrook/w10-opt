@@ -17,6 +17,7 @@
 ### A. Mouse accel tweaks
 Disable the “help” (hint: it doesn’t help) Windows tries to give you. This disables mouse acceleration and stops Windows from modifying your mouse input.
 
+#### Instructions
 1. Press the windows key
 
 2. Type in “mouse”
@@ -39,14 +40,6 @@ Read more about Nagle's Algorithm here: https://en.wikipedia.org/wiki/Nagle%27s_
 
 Nagle's algorithm TL;DR: I have a packet I want to send to a server, but it's kinda small so I'll wait to send it until I have more and lump them together.
 
-
-#### Requirements
-1. Windows XP or higher (does not work on mac/linux as this is changing window's settings)
-2. Decent CPU - A decent CPU means typically a quad core (or a computer made in this decade). This does increase your CPU by a very small margin. If you aren't running minecraft at 100% CPU you have nothing to worry about.
-3. Internet that isn't dial up - 5 Mbps Down and 1Mbps Up should be sufficient, but lower limits might still work. 
-4. Common sense - If you can't follow instructions then I highly recommend you don't do this.
-
-
 #### Instructions
 1. Open up run (Windows Key + R) and type "regedit" (without quotes, and note that everything afterwards that is surrounded by quotes should be removed too) and then hit enter
 
@@ -67,12 +60,16 @@ Examples of editing them (double click on the name or right click on the name an
 ### C. Network Throttling Index
 Windows implements a network throttling mechanism, the idea behind such throttling is that processing of network packets can be a resource-intensive task. It is beneficial to turn off such throttling for achieving maximum throughput.
 
+#### Instructions
+
 1. To implement this tweak, run regedit and modify the registry HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile. 
 
 2. Under SystemProfile, create a DWORD value and name it to “NetworkThrottlingIndex” then set its Hexadecimal value to ffffffff for gaming and max throughput, this completely disables throttling.
 
 ### D. System Gaming Responsiveness
 Multimedia streaming and some games that uses “Multimedia Class Scheduler” service (MMCSS) can only utilize up to 80% of the CPU. The “Multimedia Class Scheduler” service (MMCSS) ensures prioritized access to CPU resources, without denying CPU resources to lower-priority background applications.
+
+#### Instructions
 
 1. Run regedit and modify the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile. 
 
@@ -88,6 +85,8 @@ In the same Registry hive as the above tweak, you can also change the priority o
 ### E. Disable Bandwidth Sharing for Updates
 In another strange act of opt-out data sharing between users, Windows now uses a sort-of peer-to-peer network for downloading updates. Similar to a torrent program, this means that when you download a Windows update file, you're also uploading parts of it to other users.
 
+#### Instructions
+
 1. Start by heading to the Settings menu, but this time open the "Update & Security" section.
 
 2. From the "Windows Update" tab on the next screen, click the "Advanced options" button to find the setting we're looking for.
@@ -97,6 +96,9 @@ In another strange act of opt-out data sharing between users, Windows now uses a
 4. Finally, turn off the toggle switch directly beneath the excerpt about "Updates from more than one place." They really buried this one deep, didn't they?
 
 ### F. Disable focus assist
+
+#### Instructions
+
 1. Open Settings.
 
 2. Click on System.
@@ -114,6 +116,9 @@ Alarms only — Suppresses all notifications while focus assist is enabled, exce
 ## 2. Bloatware removal
 
 ### G. Remove cortana
+
+#### Instructions
+
 1. Open regedit the registry editor, from the search box on the taskbar.
 2. Go to HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search
 But wait! Windows Search might not be there. It wasn't for us, so we had to create it.
@@ -124,6 +129,8 @@ But wait! Windows Search might not be there. It wasn't for us, so we had to crea
 
 
 ### H. Bloatware removal
+
+#### Instructions
 Create a new file called (e.g.) delete_bloatware.bat and copy the code from https://pastebin.com/31yrSCCe into it, then right click and execute as administrator
 
 #### What it does
