@@ -80,7 +80,9 @@ Multimedia streaming and some games that uses “Multimedia Class Scheduler” s
 3. create a new DWORD and name it to “SystemResponsiveness” set its hexadecimal value to 00000000 for pure gaming/streaming.
 
 In the same Registry hive as the above tweak, you can also change the priority of Games. To implement this tweak, 
-1. go to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games and change the following registry values:
+1. Go to the path "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games"
+
+2. Change the following registry values:
 
 “GPU Priority” change its values to 8 for gaming.
 
